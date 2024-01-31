@@ -31,7 +31,8 @@ export const UserItem = ({
   return (
     <Button
       asChild
-      variant="ghost"
+      variant="ghost"  
+      
       className={cn(
         "w-full h-12",
         collapsed ? "justify-center" : "justfy-start",
